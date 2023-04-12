@@ -8,8 +8,7 @@
 	<header>
 		<h1>Login</h1>
 		<nav>
-			<a href="#">Home</a>
-			<a href="#">Cadastro</a>
+			<a href="cadastro.jsp">Cadastro</a>
 		</nav>
 	</header>
 	<form class="login-form" method="post" action="LoginServlet">

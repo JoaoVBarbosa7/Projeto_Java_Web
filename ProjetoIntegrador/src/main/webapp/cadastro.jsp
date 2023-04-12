@@ -8,20 +8,21 @@
 	<header>
 		<h1>Cadastro</h1>
 		<nav>
-			<a href="#">Home</a>
-			<a href="#">Login</a>
+			<a href="home.jsp">Home</a>
 		</nav>
 	</header>
-	<form class="signup-form" method="post" action="home.jsp">
+	<form class="signup-form" method="post" action="IncluirUsuarioServlet">
+		<label for="name">Usuario</label>
+		<input type="text" id="txtUsuario" name="txtUsuario">
 		<label for="name">Nome</label>
-		<input type="text" id="name" name="name">
+		<input type="text" id="txtNome" name="txtNome">
 		<label for="email">E-mail</label>
-		<input type="email" id="email" name="email">
+		<input type="email" id="txtEmail" name="txtEmail">
 		<label for="password">Senha</label>
-		<input type="password" id="password" name="password">
-		<label for="confirm-password">Confirmar senha</label>
-		<input type="password" id="confirm-password" name="confirm-password">
-		<button type="submit">Cadastrar</button>
+		<input type="password" id="txtSenha" name="txtSenha">
+		<div class="barra">
+			<input type="submit" name="btnIncluir" id="btnIncluir" value="Cadastrar"/>
+		</div>	
 	</form>
 	<footer>
 		<p>&copy; 2023 - Todos os direitos reservados</p>

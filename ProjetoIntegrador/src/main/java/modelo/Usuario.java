@@ -48,5 +48,9 @@ public class Usuario {
 		super();
 	}
 	
+	@Override
+	public String toString() {
+		return "Usuario [usuario=" + usuario + ", senha=" + senha + ", nome=" + nome + ", email=" + email + "]";
+	}
 	
 }
